@@ -10,6 +10,7 @@
         <script><![CDATA[var FirstScriptInclude = Class.create();
 FirstScriptInclude.prototype = {
     initialize: function() {
+		return 'BLAH124';
     },
 
     type: 'FirstScriptInclude'
@@ -18,13 +19,13 @@ FirstScriptInclude.prototype = {
         <sys_created_by>dylan.lindgren</sys_created_by>
         <sys_created_on>2020-11-11 07:01:32</sys_created_on>
         <sys_id>16fec7531bd86010b7dd96c8274bcb64</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>FirstScriptInclude</sys_name>
         <sys_package display_value="Test App" source="x_snc_test_appl123">ee6d07131bd86010b7dd96c8274bcb9f</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Test App">ee6d07131bd86010b7dd96c8274bcb9f</sys_scope>
         <sys_update_name>sys_script_include_16fec7531bd86010b7dd96c8274bcb64</sys_update_name>
         <sys_updated_by>dylan.lindgren</sys_updated_by>
-        <sys_updated_on>2020-11-11 07:01:32</sys_updated_on>
+        <sys_updated_on>2020-11-11 07:06:53</sys_updated_on>
     </sys_script_include>
 </record_update>
