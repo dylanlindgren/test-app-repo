@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_snc_test_appl123.FirstScriptInclude</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>FirstScriptInclude</name>
+        <script><![CDATA[var FirstScriptInclude = Class.create();
+FirstScriptInclude.prototype = {
+    initialize: function() {
+    },
+
+    type: 'FirstScriptInclude'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>dylan.lindgren</sys_created_by>
+        <sys_created_on>2020-11-11 07:01:32</sys_created_on>
+        <sys_id>16fec7531bd86010b7dd96c8274bcb64</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FirstScriptInclude</sys_name>
+        <sys_package display_value="Test App" source="x_snc_test_appl123">ee6d07131bd86010b7dd96c8274bcb9f</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Test App">ee6d07131bd86010b7dd96c8274bcb9f</sys_scope>
+        <sys_update_name>sys_script_include_16fec7531bd86010b7dd96c8274bcb64</sys_update_name>
+        <sys_updated_by>dylan.lindgren</sys_updated_by>
+        <sys_updated_on>2020-11-11 07:01:32</sys_updated_on>
+    </sys_script_include>
+</record_update>
